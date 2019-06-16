@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.about-photo {
+  padding-right: 20px;
+}
+
+.about-content {
+  width: 100%;
+}
+
+.about-content p {
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
+}
