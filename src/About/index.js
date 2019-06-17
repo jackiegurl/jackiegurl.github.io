@@ -12,11 +12,15 @@ export default function() {
       <div className="about-content">
         <p>
           She is currently Engineering at{' '}
-          <a className="underline" href="https://zebraiq.com">
+          <a className="underline" href="https://zebraiq.com" target="_blank">
             ZebraIQ
           </a>{' '}
           and volunteering on the tech team at{' '}
-          <a className="underline" href="https://andrewyang2020.com">
+          <a
+            className="underline"
+            href="https://andrewyang2020.com"
+            target="_blank"
+          >
             Andrew Yang 2020
           </a>
           .
@@ -28,14 +32,18 @@ export default function() {
           </a>
           , where she was part of the 3-person team that built the Tinder Web.
           She also lead the tech team at{' '}
-          <a href="https://girlboss.com" className="underline">
+          <a href="https://girlboss.com" className="underline" target="_blank">
             Girlboss
           </a>{' '}
           as the first engineering hire, where she built the entire Girlboss
           Community product from scratch as the sole Engineer.
         </p>
         <p style={{ paddingTop: '30px' }}>
-          <a href="https://instagram.com/jacquelinewung" className="underline">
+          <a
+            href="https://instagram.com/jacquelinewung"
+            className="underline"
+            target="_blank"
+          >
             Instagram
           </a>
         </p>
